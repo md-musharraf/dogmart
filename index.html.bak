@@ -1,0 +1,1603 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>DOG MART | Premium Pet Food, Accessories & Supplements Store in Dumka</title>
+    <meta
+      name="description"
+      content="Buy premium pet food, accessories, supplements and grooming products from DOG MART Dumka. Fast home delivery and WhatsApp ordering available. Call +91 9939584755"
+    />
+    <meta
+      name="keywords"
+      content="pet store dumka, dog food dumka, cat food jharkhand, royal canin dumka, pedigree dumka, pet accessories dumka, dog mart"
+    />
+    <meta
+      property="og:title"
+      content="DOG MART | Premium Pet Store in Dumka, Jharkhand"
+    />
+    <meta
+      property="og:description"
+      content="Premium pet food, accessories and supplements. Fast home delivery. WhatsApp: +91 9939584755"
+    />
+    <meta
+      property="og:type"
+      content="website"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <div class="page-loader" id="pageLoader">
+      <div class="loader-paws"><span>🐾</span><span>🐾</span><span>🐾</span></div>
+      <div class="loader-text">DOG MART</div>
+    </div>
+    <div class="promo-bar" id="promoBar">
+      🎉 <strong>Flash Sale!</strong> 20% off dog food this week — <a href="#offers">Grab the deal</a>
+      <button id="promoClose" aria-label="Dismiss">✕</button>
+    </div>
+    <!-- ============================
+     NAVBAR
+============================= -->
+    <nav
+      class="navbar"
+      id="navbar"
+    >
+      <div class="nav-inner">
+        <a
+          href="#home"
+          class="nav-logo"
+        >
+          <div class="logo-icon">&#x1F43E;</div>
+          <span class="logo-text"><span>DOG</span> MART</span>
+        </a>
+        <ul class="nav-links">
+          <li>
+            <a
+              href="#home"
+              class="active"
+              >Home</a
+            >
+          </li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <div class="nav-search">
+            <span>🔍</span>
+            <input type="search" id="navSearch" placeholder="Search..." aria-label="Search products" />
+          </div>
+          <button class="theme-btn" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark mode">🌙</button>
+          <button
+            class="cart-btn"
+            onclick="toggleCart()"
+            aria-label="Open cart"
+          >&#x1F6D2;<span
+              class="cart-badge"
+              id="cartBadge"
+              >0</span
+            >
+          </button>
+          <a
+            href="tel:+919939584755"
+            class="btn btn-outline"
+            >ðŸ“ž Call</a
+          >
+          <a
+            href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20order%20pet%20products."
+            target="_blank"
+            class="btn btn-wa"
+            >ðŸ’¬ WhatsApp</a
+          >
+        </div>
+        <div
+          class="hamburger"
+          id="ham"
+          onclick="toggleMenu()"
+        >
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div
+      class="mobile-menu"
+      id="mobileMenu"
+    >
+      <button
+        class="mobile-close"
+        onclick="toggleMenu()"
+      >&#x2715;</button>
+      <a
+        href="#home"
+        onclick="toggleMenu()"
+        >ðŸ  Home</a
+      >
+      <a
+        href="#shop"
+        onclick="toggleMenu()"
+        >ðŸ›ï¸ Shop</a
+      >
+      <a
+        href="#categories"
+        onclick="toggleMenu()"
+        >ðŸ“¦ Categories</a
+      >
+      <a
+        href="#offers"
+        onclick="toggleMenu()"
+        >ðŸŽ Offers</a
+      >
+      <a
+        href="#about"
+        onclick="toggleMenu()"
+        >â„¹ï¸ About</a
+      >
+      <a
+        href="#contact"
+        onclick="toggleMenu()"
+        >ðŸ“ Contact</a
+      >
+      <div class="mobile-menu-footer">
+        <a
+          href="tel:+919939584755"
+          class="btn btn-outline"
+          style="justify-content: center"
+          >ðŸ“ž +91 9939584755</a
+        >
+        <a
+          href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20order%20pet%20products."
+          target="_blank"
+          class="btn btn-wa"
+          style="justify-content: center"
+          >ðŸ’¬ WhatsApp Order</a
+        >
+      </div>
+    </div>
+
+    <!-- ============================
+     HERO SECTION
+============================= -->
+    <section
+      class="hero"
+      id="home"
+    >
+      <div class="hero-bg">
+        <div class="hero-blob hb1"></div>
+        <div class="hero-blob hb2"></div>
+        <div class="hero-blob hb3"></div>
+        <div class="hero-dots"></div>
+      </div>
+      <div class="hero-inner">
+        <!-- Left: Content -->
+        <div id="heroLeft">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            #1 Pet Store in Dumka, Jharkhand
+          </div>
+          <h1 class="hero-h1">
+            Your Pet Deserves<br /><span class="text-gradient">The Best</span> ðŸ¾
+          </h1>
+          <p class="hero-sub">
+            Premium Food, Accessories, Supplements &amp; Grooming Products delivered straight to
+            your doorstep. Genuine brands. Unbeatable prices.
+          </p>
+          <div class="hero-btns">
+            <a
+              href="#shop"
+              class="btn btn-primary btn-lg"
+              >ðŸ›ï¸ Shop Now</a
+            >
+            <a
+              href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20order%20pet%20products."
+              target="_blank"
+              class="btn btn-wa btn-lg"
+              >ðŸ’¬ WhatsApp Order</a
+            >
+          </div>
+          <div class="hero-stats">
+            <div class="h-stat">
+              <span
+                class="h-stat-num"
+                data-count="5000"
+                >0</span
+              >
+              <span class="h-stat-lbl">Happy Pets</span>
+            </div>
+            <div class="h-stat">
+              <span
+                class="h-stat-num"
+                data-count="1000"
+                >0</span
+              >
+              <span class="h-stat-lbl">Products</span>
+            </div>
+            <div class="h-stat">
+              <span
+                class="h-stat-num"
+                data-count="500"
+                >0</span
+              >
+              <span class="h-stat-lbl">Deliveries</span>
+            </div>
+            <div class="h-stat">
+              <span
+                class="h-stat-num"
+                data-count="8"
+                >0</span
+              >
+              <span class="h-stat-lbl">Yrs Trusted</span>
+            </div>
+          </div>
+        </div>
+        <!-- Right: Visual -->
+        <div
+          class="hero-visual"
+          id="heroRight"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=640&q=85&auto=format&fit=crop"
+            alt="Happy Dog at DOG MART"
+            class="hero-img"
+            loading="eager"
+            referrerpolicy="no-referrer"
+          />
+          <div class="hero-card hc1">
+            <div class="h-ci h-ci-o">ðŸ†</div>
+            <div>
+              <span class="h-c-sub">Best Seller</span>
+              Royal Canin Dog Food
+            </div>
+          </div>
+          <div class="hero-card hc2">
+            <div class="h-ci h-ci-g">âœ…</div>
+            <div>
+              <span class="h-c-sub">Guaranteed</span>
+              100% Genuine
+            </div>
+          </div>
+          <div class="hero-card hc3">
+            <div class="h-ci h-ci-b">ðŸšš</div>
+            <div>
+              <span class="h-c-sub">Same-day</span>
+              Fast Delivery
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     MARQUEE / TICKER
+============================= -->
+    <div class="marquee-section">
+      <div style="overflow: hidden">
+        <div class="marquee-track">
+          <div class="marquee-item">ðŸ¾ <span>Dog Food</span> â€“ Royal Canin, Pedigree, Drools</div>
+          <div class="marquee-item">ðŸ± <span>Cat Food</span> â€“ Whiskas, Me-O, Purepet</div>
+          <div class="marquee-item">ðŸ’Š <span>Pet Supplements</span> â€“ Himalaya, SmartHeart</div>
+          <div class="marquee-item">âœ‚ï¸ <span>Grooming</span> â€“ Shampoos, Brushes, Clippers</div>
+          <div class="marquee-item">ðŸšš <span>Home Delivery</span> â€“ Same Day in Dumka</div>
+          <div class="marquee-item">ðŸ’¬ <span>WhatsApp Order</span> â€“ +91 9939584755</div>
+          <div class="marquee-item">ðŸ† <span>Genuine Products</span> â€“ 100% Authentic</div>
+          <div class="marquee-item">ðŸ¾ <span>Dog Food</span> â€“ Royal Canin, Pedigree, Drools</div>
+          <div class="marquee-item">ðŸ± <span>Cat Food</span> â€“ Whiskas, Me-O, Purepet</div>
+          <div class="marquee-item">ðŸ’Š <span>Pet Supplements</span> â€“ Himalaya, SmartHeart</div>
+          <div class="marquee-item">âœ‚ï¸ <span>Grooming</span> â€“ Shampoos, Brushes, Clippers</div>
+          <div class="marquee-item">ðŸšš <span>Home Delivery</span> â€“ Same Day in Dumka</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================
+     CATEGORIES
+============================= -->
+    <section
+      class="section"
+      id="categories"
+    >
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Browse Categories</div>
+          <h2 class="sec-title reveal">
+            Everything Your Pet <span class="text-gradient">Needs</span>
+          </h2>
+          <p class="sec-desc reveal">
+            From premium nutrition to fun accessories â€” find it all under one roof at DOG MART
+          </p>
+        </div>
+        <div class="cat-grid">
+          <div
+            class="cat-card reveal" data-filter="dog-food" onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(249, 115, 22, 0.1)"
+            >
+              ðŸ–
+            </div>
+            <div class="cat-name">Dog Food</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+          <div
+            class="cat-card reveal" data-filter="cat-food"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(37, 99, 235, 0.1)"
+            >
+              🐱
+            </div>
+            <div class="cat-name">Cat Food</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+          <div
+            class="cat-card reveal" data-filter="dog-food" onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(16, 185, 129, 0.1)"
+            >
+              ðŸ’Š
+            </div>
+            <div class="cat-name">Supplements</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+          <div
+            class="cat-card reveal" data-filter="dog-food" onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(245, 158, 11, 0.1)"
+            >
+              âœ‚ï¸
+            </div>
+            <div class="cat-name">Grooming</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+          <div
+            class="cat-card reveal" data-filter="dog-food" onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(139, 92, 246, 0.1)"
+            >
+              ðŸ§¸
+            </div>
+            <div class="cat-name">Toys</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+          <div
+            class="cat-card reveal" data-filter="dog-food" onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(236, 72, 153, 0.1)"
+            >
+              ðŸŽ½
+            </div>
+            <div class="cat-name">Accessories</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+          <div
+            class="cat-card reveal" data-filter="dog-food" onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(20, 184, 166, 0.1)"
+            >
+              ðŸ¦®
+            </div>
+            <div class="cat-name">Leashes</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+          <div
+            class="cat-card reveal" data-filter="dog-food" onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(249, 115, 22, 0.1)"
+            >
+              ðŸ›ï¸
+            </div>
+            <div class="cat-name">Pet Beds</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+          <div
+            class="cat-card reveal" data-filter="dog-food" onclick="document.getElementById('shop').scrollIntoView({ behavior: 'smooth' })"
+          >
+            <div
+              class="cat-icon"
+              style="background: rgba(37, 99, 235, 0.1)"
+            >
+              ðŸ¥£
+            </div>
+            <div class="cat-name">Bowls</div>
+            <div class="cat-shop">Shop Now â†’</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     PRODUCTS
+============================= -->
+    <section
+      class="section section-alt"
+      id="shop"
+    >
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Our Products</div>
+          <h2 class="sec-title reveal">Best Selling <span class="text-gradient">Products</span></h2>
+          <p class="sec-desc reveal">
+            Hand-picked, premium quality pet products at the most competitive prices in Dumka
+          </p>
+        </div>
+                <div class="featured-section reveal">
+          <div class="section-header" style="margin-bottom:28px">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> Featured Picks</div>
+            <h2 class="sec-title" style="font-size:1.6rem">Trending <span class="text-gradient">This Week</span></h2>
+          </div>
+          <div class="swiper" id="featuredSwiper"></div>
+        </div>
+        <div class="shop-toolbar reveal">
+          <div class="search-box">
+            <span>🔍</span>
+            <input type="search" id="productSearch" placeholder="Search products, brands..." aria-label="Filter products" />
+          </div>
+          <div class="shop-filters">
+            <select id="filterCategory" aria-label="Category">
+              <option value="all">All Categories</option>
+              <option value="dog-food">Dog Food</option>
+              <option value="cat-food">Cat Food</option>
+              <option value="supplements">Supplements</option>
+              <option value="grooming">Grooming</option>
+              <option value="toys">Toys</option>
+              <option value="accessories">Accessories</option>
+              <option value="beds">Pet Beds</option>
+              <option value="bowls">Bowls</option>
+            </select>
+            <select id="filterPet" aria-label="Pet type">
+              <option value="all">All Pets</option>
+              <option value="dog">🐕 Dogs</option>
+              <option value="cat">🐱 Cats</option>
+            </select>
+            <select id="filterSort" aria-label="Sort by">
+              <option value="popular">Most Popular</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="rating">Top Rated</option>
+            </select>
+          </div>
+        </div>
+        <div id="productGrid" class="prod-grid"></div>
+        <p id="productEmpty" class="prod-empty" hidden>No products match your filters. Try adjusting search or filters.</p>
+        <div id="recentSection" class="recent-section" hidden>
+          <h3>👀 Recently Viewed</h3>
+          <div id="recentGrid" class="prod-grid"></div>
+        </div>
+        <div class="prods-cta">
+          <a
+            href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20Please%20share%20your%20complete%20product%20catalogue%20with%20prices."
+            target="_blank"
+            class="btn btn-primary btn-lg"
+            >View All Products ðŸ›ï¸</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     BRANDS
+============================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Trusted Brands</div>
+          <h2 class="sec-title reveal">We Stock <span class="text-gradient">Top Brands</span></h2>
+          <p class="sec-desc reveal">
+            100% genuine, vet-recommended products from India's leading pet care brands
+          </p>
+        </div>
+        <div class="brands-row">
+          <div class="brand-card reveal">
+            <div
+              class="brand-n"
+              style="color: #c8102e"
+            >
+              Pedigree
+            </div>
+          </div>
+          <div class="brand-card reveal">
+            <div
+              class="brand-n"
+              style="color: #b22222"
+            >
+              Royal Canin
+            </div>
+          </div>
+          <div class="brand-card reveal">
+            <div
+              class="brand-n"
+              style="color: #1565c0"
+            >
+              Drools
+            </div>
+          </div>
+          <div class="brand-card reveal">
+            <div
+              class="brand-n"
+              style="color: #2e7d32"
+            >
+              Himalaya
+            </div>
+          </div>
+          <div class="brand-card reveal">
+            <div
+              class="brand-n"
+              style="color: #e65100"
+            >
+              Purepet
+            </div>
+          </div>
+          <div class="brand-card reveal">
+            <div
+              class="brand-n"
+              style="color: #4a148c"
+            >
+              SmartHeart
+            </div>
+          </div>
+          <div class="brand-card reveal">
+            <div
+              class="brand-n"
+              style="color: #0277bd"
+            >
+              Me-O
+            </div>
+          </div>
+          <div class="brand-card reveal">
+            <div
+              class="brand-n"
+              style="color: #ad1457"
+            >
+              Whiskas
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     WHY CHOOSE US
+============================= -->
+    <section
+      class="section section-alt"
+      id="about"
+    >
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Why DOG MART</div>
+          <h2 class="sec-title reveal">
+            Why Pet Owners <span class="text-gradient">Trust Us</span>
+          </h2>
+          <p class="sec-desc reveal">
+            We're committed to the health, happiness, and longevity of your beloved pets
+          </p>
+        </div>
+        <div class="why-grid">
+          <div class="why-card reveal">
+            <div
+              class="why-icon"
+              style="background: rgba(249, 115, 22, 0.1)"
+            >
+              âœ…
+            </div>
+            <div class="why-title">Genuine Products</div>
+            <div class="why-desc">
+              100% authentic products from authorized distributors. Never a counterfeit.
+            </div>
+          </div>
+          <div class="why-card reveal">
+            <div
+              class="why-icon"
+              style="background: rgba(37, 99, 235, 0.1)"
+            >
+              ðŸ‘¨â€âš•ï¸
+            </div>
+            <div class="why-title">Expert Guidance</div>
+            <div class="why-desc">
+              Trained staff offer personalized nutrition and care advice for every pet.
+            </div>
+          </div>
+          <div class="why-card reveal">
+            <div
+              class="why-icon"
+              style="background: rgba(16, 185, 129, 0.1)"
+            >
+              ðŸšš
+            </div>
+            <div class="why-title">Fast Delivery</div>
+            <div class="why-desc">
+              Same-day home delivery in Dumka. WhatsApp your order and relax!
+            </div>
+          </div>
+          <div class="why-card reveal">
+            <div
+              class="why-icon"
+              style="background: rgba(245, 158, 11, 0.1)"
+            >
+              ðŸ’°
+            </div>
+            <div class="why-title">Best Prices</div>
+            <div class="why-desc">
+              Competitive pricing with regular discounts, combos, and loyalty rewards.
+            </div>
+          </div>
+          <div class="why-card reveal">
+            <div
+              class="why-icon"
+              style="background: rgba(139, 92, 246, 0.1)"
+            >
+              ðŸŒŸ
+            </div>
+            <div class="why-title">Premium Quality</div>
+            <div class="why-desc">
+              Only top-rated, vet-approved products make it onto our shelves.
+            </div>
+          </div>
+          <div class="why-card reveal">
+            <div
+              class="why-icon"
+              style="background: rgba(236, 72, 153, 0.1)"
+            >
+              ðŸ†
+            </div>
+            <div class="why-title">Trusted Store</div>
+            <div class="why-desc">
+              5,000+ happy pet owners trust us across Dumka and surrounding areas.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     SERVICES
+============================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Our Services</div>
+          <h2 class="sec-title reveal">
+            Everything Under <span class="text-gradient">One Roof</span>
+          </h2>
+          <p class="sec-desc reveal">
+            From nutrition to grooming â€” we cover every aspect of your pet's care journey
+          </p>
+        </div>
+        <div class="serv-grid">
+          <div class="serv-card reveal">
+            <div
+              class="serv-accent"
+              style="background: linear-gradient(180deg, var(--primary), var(--primary-d))"
+            ></div>
+            <div class="serv-body">
+              <div class="serv-icon">ðŸ–</div>
+              <div class="serv-title">Premium Pet Food</div>
+              <div class="serv-desc">
+                Extensive range of dry and wet food for dogs and cats from all top brands. Puppy,
+                adult, and senior formulas available.
+              </div>
+            </div>
+          </div>
+          <div class="serv-card reveal">
+            <div
+              class="serv-accent"
+              style="background: linear-gradient(180deg, var(--blue), var(--green))"
+            ></div>
+            <div class="serv-body">
+              <div class="serv-icon">ðŸŽ½</div>
+              <div class="serv-title">Pet Accessories</div>
+              <div class="serv-desc">
+                Collars, leashes, harnesses, travel crates, feeders, and a wide range of lifestyle
+                accessories for your pet.
+              </div>
+            </div>
+          </div>
+          <div class="serv-card reveal">
+            <div
+              class="serv-accent"
+              style="background: linear-gradient(180deg, var(--green), #059669)"
+            ></div>
+            <div class="serv-body">
+              <div class="serv-icon">ðŸ’Š</div>
+              <div class="serv-title">Health Supplements</div>
+              <div class="serv-desc">
+                Vitamins, probiotics, joint care supplements, omega fatty acids, and immunity
+                boosters from trusted brands.
+              </div>
+            </div>
+          </div>
+          <div class="serv-card reveal">
+            <div
+              class="serv-accent"
+              style="background: linear-gradient(180deg, var(--yellow), #d97706)"
+            ></div>
+            <div class="serv-body">
+              <div class="serv-icon">âœ‚ï¸</div>
+              <div class="serv-title">Grooming Products</div>
+              <div class="serv-desc">
+                Anti-tick shampoos, conditioners, brushes, nail clippers, ear cleaners, and
+                professional grooming kits.
+              </div>
+            </div>
+          </div>
+          <div class="serv-card reveal">
+            <div
+              class="serv-accent"
+              style="background: linear-gradient(180deg, var(--purple), #7c3aed)"
+            ></div>
+            <div class="serv-body">
+              <div class="serv-icon">ðŸ </div>
+              <div class="serv-title">Home Delivery</div>
+              <div class="serv-desc">
+                Order on WhatsApp and get your pet products delivered to your doorstep. Same-day
+                delivery across Dumka.
+              </div>
+            </div>
+          </div>
+          <div class="serv-card reveal">
+            <div
+              class="serv-accent"
+              style="background: linear-gradient(180deg, #ec4899, #be185d)"
+            ></div>
+            <div class="serv-body">
+              <div class="serv-icon">ðŸ“‹</div>
+              <div class="serv-title">Pet Care Consultation</div>
+              <div class="serv-desc">
+                Free personalized advice on nutrition, grooming, health, and care from our
+                experienced and passionate team.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     SPECIAL OFFERS
+============================= -->
+    <section
+      class="section section-alt"
+      id="offers"
+    >
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Hot Deals</div>
+          <h2 class="sec-title reveal">Special <span class="text-gradient">Offers</span></h2>
+          <p class="sec-desc reveal">
+            Grab the best deals before they're gone â€” limited time, maximum savings!
+          </p>
+        </div>
+        <div class="offers-grid">
+          <div class="offer-card oc1 reveal">
+            <div class="offer-bg1"></div>
+            <div class="offer-bg2"></div>
+            <div class="o-badge">ðŸ”¥ Flash Sale</div>
+            <div class="o-disc">20% OFF</div>
+            <div class="o-title">Seasonal Dog Food Deal</div>
+            <div class="o-desc">
+              Get 20% off on all dry dog food brands this week. Limited stock, grab now!
+            </div>
+            <a
+              href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20avail%20the%2020%25%20off%20seasonal%20discount%20on%20dog%20food."
+              target="_blank"
+              class="o-cta"
+              >Grab Deal â†’</a
+            >
+          </div>
+          <div class="offer-card oc2 reveal">
+            <div class="offer-bg1"></div>
+            <div class="offer-bg2"></div>
+            <div class="o-badge">ðŸ“¦ Combo Offer</div>
+            <div class="o-disc">2+1</div>
+            <div class="o-title">Buy 2 Get 1 Free</div>
+            <div class="o-desc">
+              Buy any 2 grooming products and receive 1 absolutely free. Mix & match allowed!
+            </div>
+            <a
+              href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20the%20Buy%202%20Get%201%20Free%20combo%20offer."
+              target="_blank"
+              class="o-cta"
+              >Grab Deal â†’</a
+            >
+          </div>
+          <div class="offer-card oc3 reveal">
+            <div class="offer-bg1"></div>
+            <div class="offer-bg2"></div>
+            <div class="o-badge">ðŸ“ˆ Bulk Buy</div>
+            <div class="o-disc">30% OFF</div>
+            <div class="o-title">Buy More Save More</div>
+            <div class="o-desc">
+              Save 30% when you purchase pet food worth â‚¹3,000 or more in a single order!
+            </div>
+            <a
+              href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20place%20a%20bulk%20order%20to%20avail%2030%25%20off."
+              target="_blank"
+              class="o-cta"
+              >Grab Deal â†’</a
+            >
+          </div>
+          <div class="offer-card oc4 reveal">
+            <div class="offer-bg1"></div>
+            <div class="offer-bg2"></div>
+            <div class="o-badge">â­ Loyalty</div>
+            <div class="o-disc">FREE</div>
+            <div class="o-title">Loyal Customer Benefits</div>
+            <div class="o-desc">
+              Regular customers enjoy free delivery, priority service, and exclusive discounts. Ask
+              in store!
+            </div>
+            <a
+              href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20know%20about%20loyalty%20benefits%20and%20membership."
+              target="_blank"
+              class="o-cta"
+              >Know More â†’</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     PET HEALTH BLOG
+============================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Pet Care Tips</div>
+          <h2 class="sec-title reveal">
+            Keep Your Pet <span class="text-gradient">Healthy & Happy</span>
+          </h2>
+          <p class="sec-desc reveal">
+            Expert-backed guides on nutrition, grooming, health, and overall pet wellness
+          </p>
+        </div>
+        <div class="blog-grid">
+          <div class="blog-card reveal">
+            <div class="blog-img-w">
+              <img
+                src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=540&q=80&auto=format&fit=crop"
+                alt="Dog Nutrition Guide"
+                loading="lazy"
+              />
+            </div>
+            <div class="blog-body">
+              <span class="blog-tag">ðŸ– Nutrition</span>
+              <div class="blog-title">How to Choose the Right Food for Your Dog's Breed & Age</div>
+              <div class="blog-excerpt">
+                Different breeds and life stages have unique nutritional needs. Learn how to pick
+                the perfect diet to keep your dog thriving at every age.
+              </div>
+              <a
+                href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20Can%20you%20guide%20me%20on%20the%20right%20food%20for%20my%20dog%3F"
+                target="_blank"
+                class="blog-rm"
+                >Ask Our Expert â†’</a
+              >
+            </div>
+          </div>
+          <div class="blog-card reveal">
+            <div class="blog-img-w">
+              <img
+                src="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?w=540&q=80&auto=format&fit=crop"
+                alt="Cat Grooming Tips"
+                loading="lazy"
+              />
+            </div>
+            <div class="blog-body">
+              <span class="blog-tag">âœ‚ï¸ Grooming</span>
+              <div class="blog-title">
+                5 Essential Grooming Tips for a Healthy, Shiny-Coated Cat
+              </div>
+              <div class="blog-excerpt">
+                Regular grooming keeps your cat's coat lustrous and prevents common skin and fur
+                issues. Here's your complete grooming guide.
+              </div>
+              <a
+                href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20What%20grooming%20products%20do%20you%20recommend%20for%20my%20cat%3F"
+                target="_blank"
+                class="blog-rm"
+                >Ask Our Expert â†’</a
+              >
+            </div>
+          </div>
+          <div class="blog-card reveal">
+            <div class="blog-img-w">
+              <img
+                src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=540&q=80&auto=format&fit=crop"
+                alt="Pet Vaccination"
+                loading="lazy"
+              />
+            </div>
+            <div class="blog-body">
+              <span class="blog-tag">ðŸ’‰ Health</span>
+              <div class="blog-title">
+                Complete Vaccination Schedule for Dogs: What Every Owner Must Know
+              </div>
+              <div class="blog-excerpt">
+                A comprehensive guide to vaccinating your dog â€” which vaccines are essential, when
+                to administer them, and signs to watch out for.
+              </div>
+              <a
+                href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20Can%20you%20guide%20me%20on%20pet%20vaccination%20schedule%20in%20Dumka%3F"
+                target="_blank"
+                class="blog-rm"
+                >Ask Our Expert â†’</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     TESTIMONIALS
+============================= -->
+    <section class="section testi-bg">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Customer Reviews</div>
+          <h2 class="sec-title reveal">
+            What Pet Owners <span class="text-gradient">Say About Us</span>
+          </h2>
+          <p class="sec-desc reveal">
+            Verified reviews from real DOG MART customers across Dumka and Jharkhand
+          </p>
+        </div>
+        <div class="testi-wrap">
+          <div
+            class="testi-slider"
+            id="testiSlider"
+          >
+            <div
+              class="testi-track"
+              id="testiTrack"
+            >
+              <!-- Slide 1 -->
+              <div class="testi-slide">
+                <div class="testi-card">
+                  <div class="testi-q">"</div>
+                  <div class="testi-stars">â˜…â˜…â˜…â˜…â˜…</div>
+                  <p class="testi-text">
+                    DOG MART is absolutely the best pet store in Dumka! I've been buying Royal Canin
+                    for my German Shepherd here for over 2 years. Products are always 100% genuine
+                    and the WhatsApp delivery is incredibly fast. Highly recommend to every pet
+                    owner!
+                  </p>
+                  <div class="testi-author">
+                    <img
+                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&q=80&auto=format&fit=crop&crop=face"
+                      alt="Rajesh Kumar"
+                      class="testi-ava"
+                      loading="lazy"
+                    />
+                    <div>
+                      <div class="testi-name">Rajesh Kumar</div>
+                      <div class="testi-meta">
+                        Dog Owner, Dumka <span class="verified">âœ“ Verified Buyer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="testi-slide">
+                <div class="testi-card">
+                  <div class="testi-q">"</div>
+                  <div class="testi-stars">â˜…â˜…â˜…â˜…â˜…</div>
+                  <p class="testi-text">
+                    I placed a WhatsApp order and my cat's food arrived within 2 hours! The service
+                    is phenomenal. The staff helped me choose the perfect food for my Persian cat's
+                    sensitive digestion. Amazing experience every single time!
+                  </p>
+                  <div class="testi-author">
+                    <img
+                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&q=80&auto=format&fit=crop&crop=face"
+                      alt="Priya Singh"
+                      class="testi-ava"
+                      loading="lazy"
+                    />
+                    <div>
+                      <div class="testi-name">Priya Singh</div>
+                      <div class="testi-meta">
+                        Cat Owner, Dumka <span class="verified">âœ“ Verified Buyer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 3 -->
+              <div class="testi-slide">
+                <div class="testi-card">
+                  <div class="testi-q">"</div>
+                  <div class="testi-stars">â˜…â˜…â˜…â˜…â˜…</div>
+                  <p class="testi-text">
+                    Found all the Himalaya pet supplements I needed here at genuinely the best
+                    price. The store owner is incredibly knowledgeable and passionate about pets. My
+                    Labrador puppy has been thriving on the recommended diet. Great store, great
+                    people!
+                  </p>
+                  <div class="testi-author">
+                    <img
+                      src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&q=80&auto=format&fit=crop&crop=face"
+                      alt="Amit Mishra"
+                      class="testi-ava"
+                      loading="lazy"
+                    />
+                    <div>
+                      <div class="testi-name">Amit Mishra</div>
+                      <div class="testi-meta">
+                        Puppy Owner, Godda <span class="verified">âœ“ Verified Buyer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 4 -->
+              <div class="testi-slide">
+                <div class="testi-card">
+                  <div class="testi-q">"</div>
+                  <div class="testi-stars">â˜…â˜…â˜…â˜…â˜…</div>
+                  <p class="testi-text">
+                    Best prices for pet food in all of Jharkhand! I travel from Deoghar specifically
+                    to shop at DOG MART. The team is deeply dedicated to pet welfare and it truly
+                    shows. My Labrador loves the Pedigree they recommended for joint health. Worth
+                    every rupee!
+                  </p>
+                  <div class="testi-author">
+                    <img
+                      src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&q=80&auto=format&fit=crop&crop=face"
+                      alt="Sunita Yadav"
+                      class="testi-ava"
+                      loading="lazy"
+                    />
+                    <div>
+                      <div class="testi-name">Sunita Yadav</div>
+                      <div class="testi-meta">
+                        Dog Owner, Deoghar <span class="verified">âœ“ Verified Buyer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-ctrls">
+            <button
+              class="s-btn"
+              onclick="prevTesti()"
+            >
+              â†
+            </button>
+            <div
+              class="s-dot active"
+              onclick="goTesti(0)"
+            ></div>
+            <div
+              class="s-dot"
+              onclick="goTesti(1)"
+            ></div>
+            <div
+              class="s-dot"
+              onclick="goTesti(2)"
+            ></div>
+            <div
+              class="s-dot"
+              onclick="goTesti(3)"
+            ></div>
+            <button
+              class="s-btn"
+              onclick="nextTesti()"
+            >
+              â†’
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     GALLERY
+============================= -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Gallery</div>
+          <h2 class="sec-title reveal">
+            Happy Pets &amp; <span class="text-gradient">Happy Customers</span>
+          </h2>
+          <p class="sec-desc reveal">
+            Real moments from our store and the adorable pets we serve every day
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <div
+            class="gal-item reveal"
+            onclick="openLB(this.querySelector('img').src)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=78&auto=format&fit=crop"
+              alt="Happy Golden Retriever"
+              loading="lazy"
+            />
+            <div class="gal-overlay">ðŸ”</div>
+          </div>
+          <div
+            class="gal-item reveal"
+            onclick="openLB(this.querySelector('img').src)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&q=78&auto=format&fit=crop"
+              alt="Beautiful Cat"
+              loading="lazy"
+            />
+            <div class="gal-overlay">ðŸ”</div>
+          </div>
+          <div
+            class="gal-item reveal"
+            onclick="openLB(this.querySelector('img').src)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&q=78&auto=format&fit=crop"
+              alt="Dogs playing"
+              loading="lazy"
+            />
+            <div class="gal-overlay">ðŸ”</div>
+          </div>
+          <div
+            class="gal-item reveal"
+            onclick="openLB(this.querySelector('img').src)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400&q=78&auto=format&fit=crop"
+              alt="Cute Puppy"
+              loading="lazy"
+            />
+            <div class="gal-overlay">ðŸ”</div>
+          </div>
+          <div
+            class="gal-item reveal"
+            onclick="openLB(this.querySelector('img').src)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&q=78&auto=format&fit=crop"
+              alt="Fluffy Cat"
+              loading="lazy"
+            />
+            <div class="gal-overlay">ðŸ”</div>
+          </div>
+          <div
+            class="gal-item reveal"
+            onclick="openLB(this.querySelector('img').src)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&q=78&auto=format&fit=crop"
+              alt="Dog with Owner"
+              loading="lazy"
+            />
+            <div class="gal-overlay">ðŸ”</div>
+          </div>
+          <div
+            class="gal-item reveal"
+            onclick="openLB(this.querySelector('img').src)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1444212477490-ca407925329e?w=400&q=78&auto=format&fit=crop"
+              alt="Kittens"
+              loading="lazy"
+            />
+            <div class="gal-overlay">ðŸ”</div>
+          </div>
+          <div
+            class="gal-item reveal"
+            onclick="openLB(this.querySelector('img').src)"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=400&q=78&auto=format&fit=crop"
+              alt="Playful Puppy"
+              loading="lazy"
+            />
+            <div class="gal-overlay">ðŸ”</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     CTA BANNER
+============================= -->
+    <div class="cta-banner">
+      <div class="cta-bg1"></div>
+      <div class="cta-bg2"></div>
+      <div class="cta-inner">
+        <h2 class="cta-title">Ready to Order? We Deliver Fast! ðŸšš</h2>
+        <p class="cta-sub">
+          WhatsApp us your order or give us a call. Same-day delivery available in Dumka. Your pet
+          can't wait â€” and neither should you!
+        </p>
+        <div class="cta-btns">
+          <a
+            href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20place%20an%20order%20for%20pet%20products.%20Please%20share%20your%20menu."
+            target="_blank"
+            class="btn btn-lg"
+            style="background: #25d366; color: #fff; box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4)"
+            >ðŸ’¬ WhatsApp Order Now</a
+          >
+          <a
+            href="tel:+919939584755"
+            class="btn btn-ghost btn-lg"
+            >ðŸ“ž Call: +91 9939584755</a
+          >
+        </div>
+      </div>
+    </div>
+
+    
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> FAQ</div>
+          <h2 class="sec-title reveal">Got <span class="text-gradient">Questions?</span></h2>
+          <p class="sec-desc reveal">Quick answers about ordering, delivery, and product authenticity at DOG MART</p>
+        </div>
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="section" id="pet-finder">
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Smart Picks</div>
+          <h2 class="sec-title reveal">Find the Right <span class="text-gradient">Products</span></h2>
+          <p class="sec-desc reveal">Tell us about your pet and we'll recommend the best category for you</p>
+        </div>
+        <div class="finder-card reveal">
+          <form class="finder-form" id="petFinderForm">
+            <label>Pet Type<select name="petType" required><option value="dog">🐕 Dog</option><option value="cat">🐱 Cat</option></select></label>
+            <label>Age<select name="petAge" required><option value="puppy">Puppy / Kitten</option><option value="adult">Adult</option><option value="senior">Senior</option></select></label>
+            <label>Size<select name="petSize"><option value="small">Small</option><option value="medium" selected>Medium</option><option value="large">Large</option></select></label>
+            <button type="submit" class="btn btn-primary btn-lg">🐾 Get Recommendations</button>
+          </form>
+          <div id="petFinderResult" hidden></div>
+        </div>
+      </div>
+    </section>
+<!-- ============================
+     CONTACT
+============================= -->
+    <section
+      class="section"
+      id="contact"
+    >
+      <div class="container">
+        <div class="section-header">
+          <div class="eyebrow reveal"><span class="eyebrow-dot"></span> Find Us</div>
+          <h2 class="sec-title reveal">Visit or <span class="text-gradient">Contact Us</span></h2>
+          <p class="sec-desc reveal">
+            We're always here to help you and your pet. Come visit us in Dumka!
+          </p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-list">
+            <div class="c-item reveal">
+              <div
+                class="c-icon"
+                style="background: rgba(249, 115, 22, 0.1)"
+              >
+                ðŸ“
+              </div>
+              <div>
+                <div class="c-label">Store Address</div>
+                <div class="c-value">
+                  BANDH PARA, S.P College Road,<br />Near Veterinary Hospital,<br />Dumka, Jharkhand
+                  â€“ 814101
+                </div>
+              </div>
+            </div>
+            <div class="c-item reveal">
+              <div
+                class="c-icon"
+                style="background: rgba(37, 99, 235, 0.1)"
+              >
+                ðŸ“ž
+              </div>
+              <div>
+                <div class="c-label">Phone / Call</div>
+                <div class="c-value"><a href="tel:+919939584755">+91 9939584755</a></div>
+              </div>
+            </div>
+            <div class="c-item reveal">
+              <div
+                class="c-icon"
+                style="background: rgba(37, 211, 102, 0.12)"
+              >
+                ðŸ’¬
+              </div>
+              <div>
+                <div class="c-label">WhatsApp Orders</div>
+                <div class="c-value">
+                  <a
+                    href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20place%20an%20order."
+                    target="_blank"
+                    >Message on WhatsApp â†’</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="c-item reveal">
+              <div
+                class="c-icon"
+                style="background: rgba(16, 185, 129, 0.1)"
+              >
+                ðŸ•
+              </div>
+              <div>
+                <div class="c-label">Business Hours</div>
+                <div class="c-value">
+                  Mon â€“ Sat: 9:00 AM â€“ 8:00 PM<br />Sunday: 10:00 AM â€“ 6:00 PM
+                </div>
+              </div>
+            </div>
+            <div class="c-btns reveal">
+              <a
+                href="tel:+919939584755"
+                class="btn btn-primary"
+                >ðŸ“ž Call Now</a
+              >
+              <a
+                href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20place%20a%20pet%20product%20order."
+                target="_blank"
+                class="btn btn-wa"
+                >ðŸ’¬ Order on WhatsApp</a
+              >
+            </div>
+          </div>
+          <div class="map-wrap reveal">
+            <iframe
+              src="https://maps.google.com/maps?q=Bandh+Para+SP+College+Road+Dumka+Jharkhand+814101&output=embed&z=15"
+              allowfullscreen=""
+              loading="lazy"
+              title="DOG MART Store Location â€“ Dumka, Jharkhand"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+     FOOTER
+============================= -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <div class="f-brand-logo">
+            <div class="logo-icon">&#x1F43E;</div>
+            <span><span style="color: var(--primary)">DOG</span> MART</span>
+          </div>
+          <p class="f-tagline">
+            Everything Your Pet Needs Under One Roof. Premium pet food, accessories, supplements &
+            grooming products. Proudly serving Dumka, Jharkhand with love. ðŸ¾
+          </p>
+          <div class="f-social">
+            <a
+              href="#"
+              class="soc-btn"
+              title="Facebook"
+              >ðŸ“˜</a
+            >
+            <a
+              href="#"
+              class="soc-btn"
+              title="Instagram"
+              >ðŸ“¸</a
+            >
+            <a
+              href="https://wa.me/919939584755"
+              target="_blank"
+              class="soc-btn"
+              title="WhatsApp"
+              >ðŸ’¬</a
+            >
+            <a
+              href="tel:+919939584755"
+              class="soc-btn"
+              title="Call Us"
+              >ðŸ“ž</a
+            >
+          </div>
+        </div>
+        <div>
+          <div class="f-col-title">Quick Links</div>
+          <ul class="f-links">
+            <li><a href="#home">ðŸ  Home</a></li>
+            <li><a href="#shop">ðŸ›ï¸ Shop</a></li>
+            <li><a href="#categories">ðŸ“¦ Categories</a></li>
+            <li><a href="#offers">ðŸŽ Offers</a></li>
+            <li><a href="#about">â„¹ï¸ About Us</a></li>
+            <li><a href="#contact">ðŸ“ Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="f-col-title">Categories</div>
+          <ul class="f-links">
+            <li><a href="#">ðŸ– Dog Food</a></li>
+            <li><a href="#">ðŸ± Cat Food</a></li>
+            <li><a href="#">ðŸ’Š Supplements</a></li>
+            <li><a href="#">âœ‚ï¸ Grooming</a></li>
+            <li><a href="#">ðŸ§¸ Toys</a></li>
+            <li><a href="#">ðŸ›ï¸ Pet Beds</a></li>
+            <li><a href="#">ðŸ¥£ Bowls</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="f-col-title">Contact Us</div>
+          <ul class="f-links">
+            <li>
+              <a
+                href="https://maps.app.goo.gl/hvKAGYnjPbfeEGoFA"
+                target="_blank"
+                >ðŸ“ Bandh Para, S.P College Road, Near Vet Hospital, Dumka JH 814101</a
+              >
+            </li>
+            <li><a href="tel:+919939584755">ðŸ“ž +91 9939584755</a></li>
+            <li>
+              <a
+                href="https://wa.me/919939584755"
+                target="_blank"
+                >ðŸ’¬ WhatsApp Order</a
+              >
+            </li>
+            <li><a href="#">ðŸ• Monâ€“Sat: 9AM â€“ 8PM</a></li>
+            <li><a href="#">ðŸ• Sunday: 10AM â€“ 6PM</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        Â© 2025 DOG MART, Dumka, Jharkhand. All Rights Reserved. | Made with â¤ï¸ for Pet Lovers of
+        Jharkhand
+      </div>
+    </footer>
+
+    <!-- ============================
+     WHATSAPP FLOAT
+============================= -->
+    <div class="wa-float">
+      <span class="wa-tip">Order on WhatsApp ðŸ¾</span>
+      <div class="wa-main">
+        <div class="wa-ring"></div>
+        <a
+          href="https://wa.me/919939584755?text=Hello%20DOG%20MART%2C%20I%20want%20to%20order%20pet%20products.%20Please%20help%20me."
+          target="_blank"
+          class="wa-btn-a"
+          title="Order on WhatsApp"
+          >ðŸ’¬</a
+        >
+      </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button
+      class="back-top"
+      id="backTop"
+      onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+      â†‘
+    </button>
+
+    <!-- LIGHTBOX -->
+    <div
+      class="lightbox"
+      id="lightbox"
+      onclick="closeLB()"
+    >
+      <button
+        class="lb-close"
+        onclick="closeLB()"
+      >
+        âœ•
+      </button>
+      <img
+        id="lbImg"
+        src=""
+        alt="Pet Gallery"
+      />
+    </div>
+
+    <!-- CART PANEL -->
+    <div
+      class="cart-overlay"
+      id="cartOverlay"
+      onclick="toggleCart(false)"
+    ></div>
+    <div
+      class="cart-panel"
+      id="cartPanel"
+      role="dialog"
+      aria-label="Shopping cart"
+    >
+      <div class="cart-head">
+        <h3>ðŸ›’ Your Cart</h3>
+        <button
+          class="cart-close"
+          onclick="toggleCart(false)"
+          aria-label="Close cart"
+        >
+          âœ•
+        </button>
+      </div>
+      <div
+        class="cart-body"
+        id="cartBody"
+      ></div>
+      <div
+        class="cart-foot"
+        id="cartFoot"
+        style="display: none"
+      >
+        <div class="cart-total"><span>Total</span><span id="cartTotal">â‚¹0</span></div>
+        <a
+          href="#"
+          class="btn btn-wa btn-lg"
+          id="cartCheckout"
+          target="_blank"
+          >ðŸ’¬ Order on WhatsApp</a
+        >
+      </div>
+    </div>
+
+    
+    <div class="quick-view" id="quickView" role="dialog" aria-label="Product quick view">
+      <div class="qv-panel">
+        <button class="qv-close" id="quickViewClose" aria-label="Close">✕</button>
+        <div class="qv-img-wrap"><img class="qv-img" src="" alt="" referrerpolicy="no-referrer" /></div>
+        <div class="qv-body">
+          <span class="qv-brand"></span>
+          <h3 class="qv-name"></h3>
+          <div class="qv-stars"></div>
+          <div class="qv-price"></div>
+          <p class="qv-desc"></p>
+          <div class="qv-actions">
+            <button class="btn btn-primary qv-add">🛒 Add to Cart</button>
+            <a class="btn btn-wa qv-wa" href="#" target="_blank">💬 WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- TOAST -->
+    <div
+      class="toast"
+      id="toast"
+    ></div>
+    <script type="module" src="/assets/js/main.js"></script>
+  </body>
+</html>
+
